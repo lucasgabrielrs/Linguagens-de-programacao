@@ -71,7 +71,7 @@ git clone https://github.com/lucasgabrielrs/Linguagens-de-programacao.git
 
 3. Após clonar o projeto, navegue até a pasta do projeto:
 
-cd LotoFacil
+cd .\Linguagens-de-programacao\LotoFacil\LotoFacil\src
 
 4. Compile o código-fonte Java
 
@@ -79,7 +79,7 @@ javac LotoFacil.java
 
 5. Com o código compilado, execute o programa:
 
-java Lotofacil
+java Lotofacil.java
 
 Você verá o menu de apostas sendo exibido no terminal. Siga as instruções na tela para fazer suas apostas.
 
