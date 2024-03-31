@@ -75,7 +75,7 @@ cd LotoFacil
 
 4. Compile o código-fonte Java
 
-javac Main.java
+javac LotoFacil.java
 
 5. Com o código compilado, execute o programa:
 
