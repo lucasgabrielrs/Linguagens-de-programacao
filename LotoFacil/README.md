@@ -59,7 +59,7 @@ Para executar o projeto em sua máquina, siga estes passos:
 
 #### Pré-requisitos
 
-- **Java JDK 8** ou superior instalado em sua máquina.
+- **Java JDK 17** ou superior instalado em sua máquina.
 - **Git** instalado em sua máquina.
 
 #### Clonando o Projeto
