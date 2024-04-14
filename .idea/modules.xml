@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Linguagens-de-programacao.iml" filepath="$PROJECT_DIR$/Linguagens-de-programacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LotoFacilGUI/LotoFacilGUI.iml" filepath="$PROJECT_DIR$/LotoFacilGUI/LotoFacilGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MontyHall/MontyHall.iml" filepath="$PROJECT_DIR$/MontyHall/MontyHall.iml" />
+    </modules>
+  </component>
+</project>

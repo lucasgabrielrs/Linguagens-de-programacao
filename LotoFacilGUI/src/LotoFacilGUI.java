@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
+import java.util.Scanner;
 
 public class LotoFacilGUI extends JFrame{
     private JPanel painel = new JPanel();
@@ -12,6 +13,7 @@ public class LotoFacilGUI extends JFrame{
     public LotoFacilGUI() {
         this.setTitle("** LotoFácil - Interface Gráfica");
         this.setSize(400,200);
+        this.setLocationRelativeTo(null);
         painel.setLayout(new FlowLayout(FlowLayout.CENTER, 100,20));
         painel.setBackground(new Color(255,255,255));
         this.setVisible(true);
@@ -35,7 +37,37 @@ public class LotoFacilGUI extends JFrame{
             }
         });
 
+        JButtonAposta3.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                aposta3();
+            }
+        });
+
     }
+
+    private void aposta3() {
+        Object numeroApostadoParouImpar = JOptionPane.showInputDialog
+                (null,"Digite um número par ou impar: ",
+                        "Aposta 3", JOptionPane.INFORMATION_MESSAGE, null, null,"");
+
+        int numeroApostadoParImparInt = Integer.parseInt(numeroApostadoParouImpar.toString());
+
+        if (numeroApostadoParImparInt % 2 == 0){
+            JOptionPane.showMessageDialog(null,
+                    "Parabéns!!! Você ganhou 100 reais!",
+                    "Aposta 3",
+                    JOptionPane.INFORMATION_MESSAGE,
+                    null);
+        }else{
+            JOptionPane.showMessageDialog(null,
+                    "Que pena! O número digitado foi impar e a premiação foi para numeros pares.",
+                    "Aposta 3",
+                    JOptionPane.INFORMATION_MESSAGE,
+                    null);
+        }
+    }
+
     private static void aposta1() {
         ImageIcon icon = new ImageIcon("sorteio.png");
         Object numeroApostado = JOptionPane.showInputDialog
