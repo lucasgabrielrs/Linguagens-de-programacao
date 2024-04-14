@@ -1,4 +1,4 @@
-# LOTOFÁCIL - Sistema de Loteria em Java
+# LOTOFÁCIL - Sistema de Loteria em Java com interface gráfica
 
 O sistema LOTOFÁCIL é um projeto de loteria desenvolvido em Java, permitindo aos jogadores fazer apostas em diferentes categorias e verificar os resultados para ganhar prêmios. Este sistema funciona através do terminal, realizando leituras e escritas de dados.
 
@@ -9,10 +9,13 @@ O sistema LOTOFÁCIL é um projeto de loteria desenvolvido em Java, permitindo a
 - **Verificação de resultados:** Após as apostas, o sistema compara as escolhas dos jogadores com os resultados gerados aleatoriamente.
 - **Cálculo de prêmios:** Baseado nas regras de negócio, o sistema calcula os prêmios dos jogadores vencedores.
 
-## Vídeo demonstrativo
+## Imagens demonstrativas
 
+![image](https://github.com/lucasgabrielrs/Linguagens-de-programacao/assets/123906808/877bb9ec-39d3-42c3-92f1-724778ccfaa2)
+![image](https://github.com/lucasgabrielrs/Linguagens-de-programacao/assets/123906808/09771427-676c-4192-9bd1-f4a9312c1b17)
+![image](https://github.com/lucasgabrielrs/Linguagens-de-programacao/assets/123906808/a737e419-d439-4b12-812c-fe1fa798f8c5)
+![image](https://github.com/lucasgabrielrs/Linguagens-de-programacao/assets/123906808/adfcbd74-d410-411a-b95f-e965acb026a9)
 
-https://github.com/lucasgabrielrs/Linguagens-de-programacao/assets/123906808/695e15aa-0c2b-4d04-b1d0-5ec09aacd70f
 
 
 ## Menu de Apostas
@@ -24,7 +27,6 @@ Menu LOTOFÁCIL:
 1) Apostar de 0 a 100
 2) Apostar de A à Z
 3) Apostar em par ou ímpar
-0) Sair
 
 ### Regras para a aposta de 0 a 100
 
@@ -49,6 +51,7 @@ Menu LOTOFÁCIL:
 ## Tecnologias Utilizadas
 
 - Java
+- Swing para a interface gráfica
 - Biblioteca `Scanner` para leitura de dados
 - Biblioteca `Random` para geração de números aleatórios
 - Uso de estruturas de controle como `switch case` e `do while`
@@ -71,15 +74,15 @@ git clone https://github.com/lucasgabrielrs/Linguagens-de-programacao.git
 
 3. Após clonar o projeto, navegue até a pasta do projeto:
 
-cd .\Linguagens-de-programacao\LotoFacil\LotoFacil\src
+cd .\Linguagens-de-programacao\LotoFacil\LotoFacilGUI\src
 
 4. Compile o código-fonte Java
 
-javac LotoFacil.java
+javac LotoFacilGUI.java
 
 5. Com o código compilado, execute o programa:
 
-java Lotofacil.java
+java Main.java
 
 Você verá o menu de apostas sendo exibido no terminal. Siga as instruções na tela para fazer suas apostas.
 
